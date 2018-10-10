@@ -36,7 +36,7 @@ matrix:
         - ls
         - pwd
         - export PATH=flutter/bin:$PATH
-        - /usr/local/android-sdk/tools/bin/sdkmanager --update
+        - sdkmanager --update -y
         - flutter doctor --android-licenses
         - flutter doctor -v
       script:
@@ -60,6 +60,6 @@ matrix:
 #      script:
 #        - ./flutter/bin/flutter -v build ios --no-codesign
 
-cache:
-  directories:
-    - $HOME/.pub-cache
+#cache:
+#  directories:
+#    - $HOME/.pub-cache
