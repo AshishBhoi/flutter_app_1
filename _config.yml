@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: First Flutter Application
+description: This is my one of the First Flutter Application
+show_downloads: true
