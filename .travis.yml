@@ -40,7 +40,7 @@ matrix:
         - yes | flutter doctor --android-licenses
         - flutter doctor -v
       script:
-        - flutter -v build apk
+        - flutter build apk
 
 #    - os: osx
 #      language: generic
