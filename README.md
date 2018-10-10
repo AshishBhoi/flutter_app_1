@@ -1,5 +1,4 @@
-# flutter_app_1
-
+# Flutter Application
 First Flutter Application
 
 ## Getting Started
