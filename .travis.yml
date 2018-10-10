@@ -36,8 +36,9 @@ matrix:
         - ls
         - pwd
         - export PATH=flutter/bin:$PATH
-        - flutter doctor -v
+        - /usr/local/android-sdk/tools/bin/sdkmanager --update
         - flutter doctor --android-licenses
+        - flutter doctor -v
       script:
         - flutter -v build apk
 
