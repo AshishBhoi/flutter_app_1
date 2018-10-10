@@ -36,9 +36,10 @@ matrix:
         - ls
         - pwd
         - export PATH=flutter/bin:$PATH
-        - ./flutter/bin/flutter doctor -v
+        - flutter doctor -v
+        - flutter doctor --android-licenses
       script:
-        - ./flutter/bin/flutter -v build apk
+        - flutter -v build apk
 
 #    - os: osx
 #      language: generic
